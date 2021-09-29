@@ -6,15 +6,15 @@
 <title>النسب العمري</title>
 <script type="text/javascript">
 <!--
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
-
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -30,11 +30,11 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body onload="FP_preloadImgs(/*url*/'button2211.gif',/*url*/'button2212.gif')" style="background-color: #DEFF2F">
+<body style="background-color: #DEFF2F" onload="FP_preloadImgs(/*url*/'button2216.gif',/*url*/'button2217.gif')">
 
-<div id="layer1" style="position: absolute; width: 121px; height: 38px; z-index: 1; left: 23px; top: 31px">
+<div id="layer1" style="position: absolute; width: 116px; height: 35px; z-index: 1; left: 23px; top: 34px">
 	<a href="index.html">
-	<img id="img1" alt="الصفحة الرئيسية" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2212.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2213.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2211.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2211.gif')" src="button2213.gif" style="border: 0" width="112" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
+	<img id="img1" alt="الصفحة الرئيسية" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2217.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2218.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2216.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2216.gif')" src="button2218.gif" style="border: 0" width="112" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
 <img alt="" height="895" src="hani-mansour-betras.PNG" width="1847" />
 
 </body>
