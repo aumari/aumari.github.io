@@ -6,15 +6,15 @@
 <title>النسب العمري</title>
 <script type="text/javascript">
 <!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -30,15 +30,12 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body style="background-color: #C7DA1C" onload="FP_preloadImgs(/*url*/'buttonA24.gif',/*url*/'buttonB32.gif',/*url*/'button53.gif',/*url*/'button54.gif')">
+<body style="background-color: #CAFD33" onload="FP_preloadImgs(/*url*/'button2862.gif',/*url*/'button2863.gif')">
 
-<div id="layer1" style="position: absolute; width: 120px; height: 29px; z-index: 1; left: 20px; top: 27px">
+<div id="layer1" style="position: absolute; width: 110px; height: 45px; z-index: 1; left: 20px; top: 30px">
 	<a href="index.html">
-	<img id="img3" alt="الصفحة الرئيسية" height="24" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB32.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button41.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonA24.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonA24.gif')" src="button41.gif" style="border: 0" width="120" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 8; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
-<div id="layer2" style="position: absolute; width: 153px; height: 45px; z-index: 2; left: 545px; top: 40px">
-	<a href="sandallah.html">
-	<img id="img4" alt="عيسى" height="45" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button54.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button55.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button53.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button53.gif')" src="button55.gif" style="border: 0" width="150" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Rectangle 6; fp-font-style: Bold; fp-font-size: 12; fp-transparent: 1; fp-proportional: 0" fp-title="عيسى" --></a></div>
-<img alt="" height="604" src="sandala-2.PNG" width="1310" />
+	<img id="img5" alt="الصفحة الرئيسة" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2863.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2864.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2862.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2862.gif')" src="button2864.gif" style="border: 0" width="110" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 8; fp-transparent: 1" fp-title="الصفحة الرئيسة" --></a></div>
+<img alt="" height="713" src="sandala-2.png" width="1800" />
 
 </body>
 
