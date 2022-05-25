@@ -6,15 +6,15 @@
 <title>النسب العمري</title>
 <script type="text/javascript">
 <!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -30,16 +30,12 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body onload="FP_preloadImgs(/*url*/'button1300.gif',/*url*/'button1301.gif',/*url*/'buttonE61.gif',/*url*/'buttonF50.gif')" style="background-color: #DEFF81">
+<body style="background-color: #CCFF33" onload="FP_preloadImgs(/*url*/'button3003.gif',/*url*/'button3004.gif')">
 
-<div id="layer1" style="position: absolute; width: 111px; height: 30px; z-index: 1; left: 22px; top: 24px">
+<div id="layer1" style="position: absolute; width: 115px; height: 35px; z-index: 1; left: 20px; top: 35px">
 	<a href="index.html">
-	<div id="layer2" style="position: absolute; width: 110px; height: 24px; z-index: 1; left: 974px; top: -4px">
-		<a href="abdallah-bin-abdelqader.html">
-		<img id="img2" alt="رجوع" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonF50.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonD76.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonE61.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonE61.gif')" src="buttonD76.gif" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 6; fp-font-style: Bold; fp-transparent: 1" fp-title="رجوع" --></a></div>
-	<a href="index.html">
-	<img id="img1" alt="الصفحة الرئيسية" height="23" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1301.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1302.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1300.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1300.gif')" src="button1302.gif" style="border: 0" width="113" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></a></div>
-<img alt="" height="606" src="beni-ali.png" width="1286" />
+	<img id="img1" alt="الصفحة الرئيسية" height="23" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3004.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3005.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3003.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3003.gif')" src="button3005.gif" style="border: 0" width="114" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 8; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
+<img alt="" height="725" src="beni-ali.png" width="1833" />
 
 </body>
 
