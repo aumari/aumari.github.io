@@ -6,15 +6,15 @@
 <title>النسب العمري</title>
 <script type="text/javascript">
 <!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -30,12 +30,12 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body onload="FP_preloadImgs(/*url*/'button1269.gif',/*url*/'button1270.gif')" style="background-color: #DEFF81">
+<body style="background-color: #CCFF33" onload="FP_preloadImgs(/*url*/'button3088.gif',/*url*/'buttonA150.gif')">
 
-<div id="layer1" style="position: absolute; width: 110px; height: 38px; z-index: 1; left: 18px; top: 19px">
+<div id="layer1" style="position: absolute; width: 115px; height: 35px; z-index: 1; left: 15px; top: 25px">
 	<a href="index.html">
-	<img id="img1" alt="الصفحة الرئيسية" height="23" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1270.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1271.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1269.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1269.gif')" src="button1271.gif" style="border: 0" width="113" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
-<img alt="" height="607" src="samara-ben%20mostafa.png" width="1287" />
+	<img id="img1" alt="الصفحة الرئيسية" height="24" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonA150.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3089.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3088.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3088.gif')" src="button3089.gif" style="border: 0" width="118" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 8; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
+<img alt="" height="672" src="samara-ben-mostafa.png" width="1740" />
 
 </body>
 
