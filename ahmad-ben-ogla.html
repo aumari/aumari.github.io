@@ -6,15 +6,15 @@
 <title>النسب العمري</title>
 <script type="text/javascript">
 <!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -30,12 +30,12 @@ function FP_getObjectByID(id,o) {//v1.0
 </script>
 </head>
 
-<body onload="FP_preloadImgs(/*url*/'button1344.gif',/*url*/'button1345.gif')" style="background-color: #DEFF81">
+<body style="background-color: #CCFF33" onload="FP_preloadImgs(/*url*/'button3092.gif',/*url*/'button3093.gif')">
 
-<div id="layer1" style="position: absolute; width: 108px; height: 36px; z-index: 1; left: 10px; top: 15px">
+<div id="layer1" style="position: absolute; width: 120px; height: 35px; z-index: 1; left: 30px; top: 45px">
 	<a href="index.html">
-	<img id="img1" alt="الصفحة الرئيسية" height="21" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1345.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1346.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1344.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1344.gif')" src="button1346.gif" style="border: 0" width="105" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 9; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
-<img alt="" height="602" src="ahmad-ben-ogla.png" width="1309" />
+	<img id="img1" alt="الصفحة الرئيسية" height="25" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3093.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3094.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3092.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3092.gif')" src="button3094.gif" style="border: 0" width="125" /><!-- MSComment="ibutton" fp-style="fp-btn: Metal Capsule 3; fp-font-style: Bold; fp-font-size: 8; fp-transparent: 1" fp-title="الصفحة الرئيسية" --></a></div>
+<img alt="" height="685" src="ahmad-ben-ogla..png" width="1787" />
 
 </body>
 
